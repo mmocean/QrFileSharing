@@ -1,0 +1,204 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QrFileSharing - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/QrFileSharing.res" /d "NDEBUG" "C:\Users\Administrator\workspace\VcProjects\QrFileSharing\QrFileSharing.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE936.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/QrFileSharing.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\MainFrm.cpp"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\QrFileSharing.cpp"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\QrFileSharingDialog.cpp"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\QrFileSharingDoc.cpp"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\QrFileSharingView.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE936.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE937.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/QrFileSharing.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE937.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE938.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\bitstream.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\mask.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\mmask.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\mqrspec.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\qrenc.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\qrencode.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\qrinput.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\qrspec.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\rscode.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\split.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\auth.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\cgi.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\config.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\io_cgi.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\io_dir.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\io_emb.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\io_file.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\io_socket.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\io_ssi.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\io_ssl.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\log.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\md5.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\mime_type.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\shttpd.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\standalone.c"
+"C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\string.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE938.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE939.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/QrFileSharing.pdb" /machine:I386 /out:"Release/QrFileSharing.exe" 
+.\Release\MainFrm.obj
+.\Release\QrFileSharing.obj
+.\Release\QrFileSharingDialog.obj
+.\Release\QrFileSharingDoc.obj
+.\Release\QrFileSharingView.obj
+.\Release\StdAfx.obj
+.\Release\bitstream.obj
+.\Release\mask.obj
+.\Release\mmask.obj
+.\Release\mqrspec.obj
+.\Release\qrenc.obj
+.\Release\qrencode.obj
+.\Release\qrinput.obj
+.\Release\qrspec.obj
+.\Release\rscode.obj
+.\Release\split.obj
+.\Release\auth.obj
+.\Release\cgi.obj
+.\Release\compat_win32.obj
+.\Release\config.obj
+.\Release\io_cgi.obj
+.\Release\io_dir.obj
+.\Release\io_emb.obj
+.\Release\io_file.obj
+.\Release\io_socket.obj
+.\Release\io_ssi.obj
+.\Release\io_ssl.obj
+.\Release\log.obj
+.\Release\md5.obj
+.\Release\mime_type.obj
+.\Release\shttpd.obj
+.\Release\standalone.obj
+.\Release\string.obj
+.\Release\QrFileSharing.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE939.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+QrFileSharing.cpp
+QrFileSharingDialog.cpp
+QrFileSharingDoc.cpp
+QrFileSharingView.cpp
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\QrFileSharingView.cpp(73) : warning C4129: '.' : unrecognized character escape sequence
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\QrFileSharingView.cpp(114) : warning C4129: '.' : unrecognized character escape sequence
+Generating Code...
+Compiling...
+bitstream.c
+mask.c
+mmask.c
+mqrspec.c
+qrenc.c
+qrencode.c
+qrinput.c
+qrspec.c
+rscode.c
+split.c
+auth.c
+cgi.c
+compat_win32.c
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(114) : warning C4101: 'text' : unreferenced local variable
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(112) : warning C4101: 'tid' : unreferenced local variable
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(113) : warning C4101: 'up' : unreferenced local variable
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(405) : warning C4101: 'width' : unreferenced local variable
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(405) : warning C4101: 'x' : unreferenced local variable
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(405) : warning C4101: 'y' : unreferenced local variable
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(405) : warning C4101: 'cl' : unreferenced local variable
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(403) : warning C4101: 'style' : unreferenced local variable
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(438) : warning C4101: 'tid' : unreferenced local variable
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\compat_win32.c(843) : warning C4101: 'tid' : unreferenced local variable
+config.c
+io_cgi.c
+io_dir.c
+io_emb.c
+io_file.c
+io_socket.c
+io_ssi.c
+Generating Code...
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\qrencode-3.4.4\qrinput.c(1695) : warning C4761: integral size mismatch in argument; conversion supplied
+Compiling...
+io_ssl.c
+log.c
+md5.c
+mime_type.c
+shttpd.c
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\shttpd.c(791) : warning C4018: '==' : signed/unsigned mismatch
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\shttpd.c(928) : warning C4018: '==' : signed/unsigned mismatch
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\shttpd.c(954) : warning C4018: '==' : signed/unsigned mismatch
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\shttpd.c(1179) : warning C4090: 'initializing' : different 'const' qualifiers
+C:\Users\Administrator\workspace\VcProjects\QrFileSharing\shttpd-1.38\shttpd.c(1180) : warning C4018: '>=' : signed/unsigned mismatch
+standalone.c
+string.c
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP227.tmp" with contents
+[
+/nologo /o"Release/QrFileSharing.bsc" 
+.\Release\StdAfx.sbr
+.\Release\MainFrm.sbr
+.\Release\QrFileSharing.sbr
+.\Release\QrFileSharingDialog.sbr
+.\Release\QrFileSharingDoc.sbr
+.\Release\QrFileSharingView.sbr
+.\Release\bitstream.sbr
+.\Release\mask.sbr
+.\Release\mmask.sbr
+.\Release\mqrspec.sbr
+.\Release\qrenc.sbr
+.\Release\qrencode.sbr
+.\Release\qrinput.sbr
+.\Release\qrspec.sbr
+.\Release\rscode.sbr
+.\Release\split.sbr
+.\Release\auth.sbr
+.\Release\cgi.sbr
+.\Release\compat_win32.sbr
+.\Release\config.sbr
+.\Release\io_cgi.sbr
+.\Release\io_dir.sbr
+.\Release\io_emb.sbr
+.\Release\io_file.sbr
+.\Release\io_socket.sbr
+.\Release\io_ssi.sbr
+.\Release\io_ssl.sbr
+.\Release\log.sbr
+.\Release\md5.sbr
+.\Release\mime_type.sbr
+.\Release\shttpd.sbr
+.\Release\standalone.sbr
+.\Release\string.sbr]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP227.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+QrFileSharing.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
