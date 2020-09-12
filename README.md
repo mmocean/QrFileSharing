@@ -6,7 +6,7 @@ I have completed the demo, and this project is written wiht Visual C++ 6.0, I th
 
 And this version is very simple, only basic functions provided.
 
-If you want to know any more details, please send an e-mail to lihaiyangcsu@gmail.com. Of cause, if you want, you'd better read the source code, with nothing hidden.
+If you want to know any more details, please send an e-mail. Of cause, if you want, you'd better read the source code, with nothing hidden.
 
 Finally You are really welcome to join me.
 
